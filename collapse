@@ -82,21 +82,543 @@
               <td>03/04/2020</td>
               <td>04/04/2020</td>
             </tr>
+            <tr>
+              <td><a data-toggle='collapse' href="#prg141" role='button' aria-expanded='false' 
+                aria-controls="prg141">3BL</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
 
+            <tr>
+              <td><a data-toggle='collapse' href="#prg171" role='button' aria-expanded='false' 
+                aria-controls="prg141">NOBRE</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+            <tr>
+              <td><a data-toggle='collapse' href="#prg141" role='button' aria-expanded='false' 
+                aria-controls="prg141">3BL</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+
+            <tr>
+              <td><a data-toggle='collapse' href="#prg171" role='button' aria-expanded='false' 
+                aria-controls="prg141">NOBRE</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+            <tr>
+              <td><a data-toggle='collapse' href="#prg141" role='button' aria-expanded='false' 
+                aria-controls="prg141">3BL</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+
+            <tr>
+              <td><a data-toggle='collapse' href="#prg171" role='button' aria-expanded='false' 
+                aria-controls="prg141">NOBRE</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+            <tr>
+              <td><a data-toggle='collapse' href="#prg141" role='button' aria-expanded='false' 
+                aria-controls="prg141">3BL</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+
+            <tr>
+              <td><a data-toggle='collapse' href="#prg171" role='button' aria-expanded='false' 
+                aria-controls="prg141">NOBRE</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+            <tr>
+              <td><a data-toggle='collapse' href="#prg141" role='button' aria-expanded='false' 
+                aria-controls="prg141">3BL</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+
+            <tr>
+              <td><a data-toggle='collapse' href="#prg171" role='button' aria-expanded='false' 
+                aria-controls="prg141">NOBRE</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+            <tr>
+              <td><a data-toggle='collapse' href="#prg141" role='button' aria-expanded='false' 
+                aria-controls="prg141">3BL</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+
+            <tr>
+              <td><a data-toggle='collapse' href="#prg171" role='button' aria-expanded='false' 
+                aria-controls="prg141">NOBRE</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+            <tr>
+              <td><a data-toggle='collapse' href="#prg141" role='button' aria-expanded='false' 
+                aria-controls="prg141">3BL</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+
+            <tr>
+              <td><a data-toggle='collapse' href="#prg171" role='button' aria-expanded='false' 
+                aria-controls="prg141">NOBRE</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+            <tr>
+              <td><a data-toggle='collapse' href="#prg141" role='button' aria-expanded='false' 
+                aria-controls="prg141">3BL</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+
+            <tr>
+              <td><a data-toggle='collapse' href="#prg171" role='button' aria-expanded='false' 
+                aria-controls="prg141">NOBRE</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+            <tr>
+              <td><a data-toggle='collapse' href="#prg141" role='button' aria-expanded='false' 
+                aria-controls="prg141">3BL</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+
+            <tr>
+              <td><a data-toggle='collapse' href="#prg171" role='button' aria-expanded='false' 
+                aria-controls="prg141">NOBRE</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg171">
+              <td>NOBRE EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+            <tr>
+              <td><a data-toggle='collapse' href="#prg141" role='button' aria-expanded='false' 
+                aria-controls="prg141">3BL</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg141">
+              <td>3BL EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
+
+            <tr>
+              <td><a data-toggle='collapse' href="#prg71" role='button' aria-expanded='false' 
+                aria-controls="prg71">ALVO ATINGIR</a></td>
+              <td>18/02/2020</td>
+              <td>OAC</td>
+              <td>70%</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg71">
+              <td>NOBRE EP 001</td>
+              <td>20/04/2020</td>
+              <td>21/04/2020</td>
+              <td>23/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg71">
+              <td>NOBRE EP 002</td>
+              <td>24/04/2020</td>
+              <td>25/04/2020</td>
+              <td>26/04/2020</td>
+            </tr>
+            <tr class='collapse multi-collapse' id="prg71">
+              <td>NOBRE EP 003</td>
+              <td>02/04/2020</td>
+              <td>03/04/2020</td>
+              <td>04/04/2020</td>
+            </tr>
           </tbody>
         </table>
+        
       </div>
-      <div id="s2" class="row" style="height: 600px;"><h1>Setor Dois</h1></div>
+      <!-- <div id="s2" class="row" style="height: 600px;"><h1>Setor Dois</h1></div>
       <div id="s3" class="row" style="height: 600px;"><h1>Setor Três</h1></div>
-      <div id="s4" class="row" style="height: 600px;"><h1>Setor Quatro</h1></div>
+      <div id="s4" class="row" style="height: 600px;"><h1>Setor Quatro</h1></div> -->
     </div>
     
     <script>
       window.onload = getExc;
       function getExc(){
-        //#prg141 -> PEGO DINAMICAMENTE
-        let magic = document.querySelector('#prg141');        
-        magic.classList.add('show');
+        //#prg141 -> PEGARIA DINAMICAMENTE DINAMICAMENTE
+        let magic = document.querySelectorAll('#prg71'); 
+        for (let i = 0; i < magic.length; i++) {
+          magic[i].classList.add('show');            
+        }
+        
+        const result = document.querySelector('.row');
+        const a = document.createElement('a');
+        // a.classList.add('ml-2');
+        // #prg71 -> PEGARIA DINAMICAMENTE
+        a.setAttribute('href',`#prg71`);
+        result.appendChild(a);
+        a.click();
+
+        
       }
     </script>
     
