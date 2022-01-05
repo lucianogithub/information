@@ -1,4 +1,4 @@
-// MODELO PEGO NA INTERNET >> https://blog.tiagomatos.com/calcular-e-exibir-datas-no-intervalo-com-php/ 
+// MODELO PEGO NA INTERNET >> https://blog.tiagomatos.com/calcular-e-exibir-datas-no-intervalo-com-php/ - seg teste
 //Star date
 $dateStart 		= '20/04/2013';
 $dateStart 		= implode('-', array_reverse(explode('/', substr($dateStart, 0, 10)))).substr($dateStart, 10);
