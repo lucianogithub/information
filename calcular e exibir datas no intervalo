@@ -1,4 +1,4 @@
-// MODELO PEGO NA INTERNET >> https://blog.tiagomatos.com/calcular-e-exibir-datas-no-intervalo-com-php/ - ATUALIZANDO COM O GIT NO VSCODE 
+// MODELO PEGO NA INTERNET >> https://blog.tiagomatos.com/calcular-e-exibir-datas-no-intervalo-com-php/ 
 //Star date
 $dateStart 		= '20/04/2013';
 $dateStart 		= implode('-', array_reverse(explode('/', substr($dateStart, 0, 10)))).substr($dateStart, 10);
