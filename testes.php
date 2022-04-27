@@ -1,5 +1,6 @@
 <?php
 
+    echo "<br><hr>";
     $nome = 'Luciano de Oliveira Paula';
     $nome = explode(' ',$nome);
     
