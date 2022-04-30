@@ -38,17 +38,17 @@
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td><input type='text' class='valor' name='nome[1]' custo='1'></td>
+              <td><input type='text' class='nome' name='nome[1]' custo='1'></td>
               <td><input type='text' id='1' name='nome_english[1]' ></td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td><input type='text'  class='valor' name='nome[2]' custo='2'></td>
+              <td><input type='text'  class='nome' name='nome[2]' custo='2'></td>
               <td><input type='text' id='2' name='nome_english[2]' ></td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td><input type='text' class='valor' name='nome[3]' custo='3'></td>
+              <td><input type='text' class='nome' name='nome[3]' custo='3'></td>
               <td><input type='text' id='3' name='nome_english[3]' ></td>
             </tr>
           </tbody>
@@ -65,7 +65,7 @@
 
     <script>
         $(document).ready(function(){
-            $(".valor").on("input", function(){
+            $(".nome").on("input", function(){
                 var textoDigitado = $(this).val();                
                 var inputCusto = $(this).attr("custo");
                 $("#"+ inputCusto).val(textoDigitado);
