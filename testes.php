@@ -65,11 +65,26 @@
 
     <script>
         $(document).ready(function(){
+            // $(".nome").on("input", function(){
+            //     var textoDigitado = $(this).val();                
+            //     var inputCusto = $(this).attr("custo");
+            //     $("#"+ inputCusto).val(textoDigitado);
+            //     console.log(textoDigitado);
+            // });
+        });
+
+        document.addEventListener('keyup', function (e) {
+          var codigoTecla = e.which || e.keyCode || 0;
+          // console.log(codigoTecla);
+          var valida = codigoTecla == 9;
+          if(valida){
             $(".nome").on("input", function(){
                 var textoDigitado = $(this).val();                
                 var inputCusto = $(this).attr("custo");
                 $("#"+ inputCusto).val(textoDigitado);
+                console.log(textoDigitado);
             });
+          }
         });
       </script>
 
