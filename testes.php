@@ -12,6 +12,8 @@
     }
     // echo $sobrenome;
 
+    // if(in_array(4,[690,3,41])){echo 'tem';}
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -26,7 +28,7 @@
     <title>Olá, mundo!</title>
   </head>
   <body>
-      <div class="container">
+      <!-- <div class="container">
         <table class="table">
           <thead>
             <tr>
@@ -53,7 +55,25 @@
             </tr>
           </tbody>
         </table>
-      </div>   
+      </div>-->
+
+      <div class="container border border-danger">
+        
+        <div class="form-group row">
+          <label for="staticEmail" class="col-sm-2 col-form-label col-form-label-sm border">Pesquisar por:</label>
+          <div class="col-sm-4">
+            <select id="inputEstado" class="form-control form-control-sm">
+              <option selected></option>
+              <option>A</option>
+              <option>B</option>
+              <option>C</option>
+            </select>
+          </div>
+          <div class="col-sm-3"><input type='text' class="form-control form-control-sm"></div>
+          <div class="col-sm-3" id="inputDois"><input type='text' class="form-control form-control-sm"></div>
+        </div>
+
+      </div>
       
 
     <!-- JavaScript (Opcional) -->
@@ -64,6 +84,19 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <script>
+      var select   = document.getElementById("inputEstado");
+      var inputDois   = document.getElementById("inputDois");
+      inputDois.classList.add('d-none')
+      var variavel = '';
+      select.onchange = function(){
+          variavel = this.value;
+          if(variavel=='B'){  
+            inputDois.classList.remove('d-none')
+          }else{                         
+            inputDois.classList.add('d-none')  
+          }
+      }
+
         $(document).ready(function(){
             // $(".nome").on("input", function(){
             //     var textoDigitado = $(this).val();                
@@ -71,7 +104,14 @@
             //     $("#"+ inputCusto).val(textoDigitado);
             //     console.log(textoDigitado);
             // });
+            
+            // var info = $('#inputEstado').val();
+            // console.log(info);
         });
+        // document.addEventListener('click', function (e) {
+        //   var info = $('#inputEstado').val();
+        //   console.log(info);
+        // });
 
         document.addEventListener('keyup', function (e) {
           var codigoTecla = e.which || e.keyCode || 0;
