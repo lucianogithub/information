@@ -1,15 +1,26 @@
 <?php
+// $opcoes = ['Colaborador','Ano referência','Mês referência','Valor pago','Data do comprovante'];
+// foreach ($opcoes as $key => $value) {
+//   echo $key." - ".$value."<br>";
+// }
 
     // echo "<br><hr>";
-    $nome = 'Luciano de Oliveira Paula';
-    $nome = explode(' ',$nome);
+    $nome = 'LucianodeOliveiraPaula ';  
+    echo str_replace('','',$nome); 
     
-    $sobrenome="";
-    foreach ($nome as $key => $value) {
-        if($key!=0){
-            $sobrenome .= $value." ";
-        }        
+    if(preg_match("/^[a-zA-Z'-]+$/", $nome) || preg_match("/ \s*/",$nome)){
+      echo "Tudo Certo!";
+    }else{
+      echo "Caracter especial!";
     }
+    // $nome = explode(' ',$nome);
+    
+    // $sobrenome="";
+    // foreach ($nome as $key => $value) {
+    //     if($key!=0){
+    //         $sobrenome .= $value." ";
+    //     }        
+    // }
     // echo $sobrenome;
 
     // if(in_array(4,[690,3,41])){echo 'tem';}
@@ -24,10 +35,36 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <style>
+      th {vertical-align: middle !important;}
+    </style>
     <title>Olá, mundo!</title>
   </head>
   <body>
+    <div class="container">
+        <!-- <table class="table table-bordered ">
+          <thead>
+            <tr>
+              <th colspan="2" scope="col">Primeiro</th>
+              <th rowspan="2" scope="col">Terceiro</th>
+              <th rowspan="2" scope="col">Quarto</th>
+            </tr>
+            <tr>
+              <th scope="col">1</th>
+              <th scope="col">2</th>              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>            
+              <td></td>            
+              <td></td>            
+            </tr>            
+          </tbody>
+        </table>
+      </div> -->
+
       <!-- <div class="container">
         <table class="table">
           <thead>
@@ -57,7 +94,7 @@
         </table>
       </div>-->
 
-      <div class="container border border-danger">
+      <!-- <div class="container border border-danger">
         
         <div class="form-group row">
           <label for="staticEmail" class="col-sm-2 col-form-label col-form-label-sm border">Pesquisar por:</label>
@@ -73,7 +110,7 @@
           <div class="col-sm-3" id="inputDois"><input type='text' class="form-control form-control-sm"></div>
         </div>
 
-      </div>
+      </div> -->
       
 
     <!-- JavaScript (Opcional) -->
