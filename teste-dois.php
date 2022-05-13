@@ -1,4 +1,10 @@
 <?php
+$data = "2022-04";
+// $data = DateTime::createFromFormat('Y-m',$data);
+// echo $data->format('Y')."<br>";
+// echo $data->format('m');
+
+// echo date_format(date_create($data),'m');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -20,7 +26,8 @@
         <div class="media text-muted pt-2"> 
           <div class="media-body pb-1 small lh-125 border-bottom border-gray">
             <div class="d-flex justify-content-between align-items-center w-100">
-              <strong class="h5 text-dark">Pesquisas Financeiro <span class="text-danger">Em desenvolvimento</span> </strong>                
+              <strong class="h5 text-dark">Pesquisas Financeiro <span class="text-danger">Em desenvolvimento</span> </strong> 
+                            
             </div>
           </div>
         </div>
@@ -28,7 +35,7 @@
 
     <div class="container " style="margin-top: 7.0rem;">   
       
-        <form class="d-print-none" id="frm_principal" action="" method="post">
+        <form class="d-print-none" id="frm_principal" action="#" method="post">
             <input type="hidden" name="classe" value="financeiro">
             <input type="hidden" name="p" value="contas_pagar">
             <input type="hidden" name="a" value="pesquisa_financeiro">
@@ -121,13 +128,20 @@
         inputTres.classList.add('d-none')
         inputQuatro.classList.add('d-none')
         inputCinco.classList.add('d-none')
-        
+        // conceptName = select.options[select.selectedIndex].text;
         var variavel = '';
+        var variavelDois = '';
         // $opcoes = ['','Colaborador','Mês/Ano referência','Valor pago','Data do comprovante'];
+        variavelDois = select.options[select.selectedIndex].value;
+        if(variavelDois){chama(variavelDois);}
+        
         select.onchange = function(){
             variavel = this.value;
             console.log(variavel);
+            chama(variavel);            
+        }
 
+        function chama(variavel){ 
             switch (variavel) {
                 case '2':
                     inputZero.classList.add('d-none')
@@ -162,8 +176,6 @@
                     inputCinco.classList.add('d-none')                    
                     break;
             }
-            
-            
         }
     </script>
 
