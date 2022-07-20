@@ -1,18 +1,38 @@
 <?php
+
+$personagem = "TESTE 1; TESTE 2";
+$personagem = explode(';',$personagem);
+$nome="";
+foreach ($personagem as $key => $value) {
+  $nome .= $value.";";
+}
+echo rtrim($nome,';');
+
+// $nome = "Luciano";
+// $numero = 5;
+// $imp="";
+// for ($i=0; $i < $numero; $i++) { 
+//   for ($ii=0; $ii <= $i ; $ii++) { 
+//     echo $nome." ";
+//   }  
+//   echo "<br>";
+// }
+
+
 // $opcoes = ['Colaborador','Ano referência','Mês referência','Valor pago','Data do comprovante'];
 // foreach ($opcoes as $key => $value) {
 //   echo $key." - ".$value."<br>";
 // }
 
     // echo "<br><hr>";
-    $nome = 'LucianodeOliveiraPaula ';  
-    echo str_replace('','',$nome); 
+    // $nome = 'lucano 45, bruna, homem';  
+    // // echo str_replace('','',$nome); 
     
-    if(preg_match("/^[a-zA-Z'-]+$/", $nome) || preg_match("/ \s*/",$nome)){
-      echo "Tudo Certo!";
-    }else{
-      echo "Caracter especial!";
-    }
+    // if(preg_match("/^[a-zA-Z'-]+$/", $nome) || preg_match("/ \s*/",$nome)){
+    //   echo "Tudo Certo!";
+    // }else{
+    //   echo "Caracter especial!";
+    // }
     // $nome = explode(' ',$nome);
     
     // $sobrenome="";

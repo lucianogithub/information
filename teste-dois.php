@@ -1,10 +1,10 @@
 <?php
-$data = "2022-04";
-// $data = DateTime::createFromFormat('Y-m',$data);
-// echo $data->format('Y')."<br>";
-// echo $data->format('m');
 
-// echo date_format(date_create($data),'m');
+$episodio = "1;";
+$episodio = str_replace(";",",",$episodio);
+$episodio = rtrim($episodio,',');
+echo $episodio;
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -106,6 +106,12 @@ $data = "2022-04";
             </table>
         </div>
     </div>
+    <div class="form-grow row">
+					<div class="col-lg-2"><h6 class="" style="font-weight:bold">Dublador:</h6></div> 
+					<div class="col-lg-4"><select class="form-control form-control-sm" id="select-sugerir-dublador" style="max-width:100%"><option value="">-</option></select></div>						
+					<div class="col-lg-4" id="link"></div>
+					<div class="col-lg-2" id="adiciona_botao"><button onclick="adicionar();" type="button" class="btn btn-primary float-right">Adicionar</button></div>					
+				</div>
     </div> 
       
 
