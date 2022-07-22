@@ -1,12 +1,14 @@
 <?php
 
-$personagem = "TESTE 1; TESTE 2";
-$personagem = explode(';',$personagem);
-$nome="";
-foreach ($personagem as $key => $value) {
-  $nome .= $value.";";
-}
-echo rtrim($nome,';');
+$vendorDirPath = realpath(__DIR__); echo $vendorDirPath.'/vendor';
+
+// $personagem = "TESTE 1; TESTE 2";
+// $personagem = explode(';',$personagem);
+// $nome="";
+// foreach ($personagem as $key => $value) {
+//   $nome .= $value.";";
+// }
+// echo rtrim($nome,';');
 
 // $nome = "Luciano";
 // $numero = 5;
