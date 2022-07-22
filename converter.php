@@ -1,4 +1,17 @@
 <?php
+
+$algo = [
+    "id"=>'uma coisa',
+    "caminho"=>'outra coisa'
+];
+
+// $algo[] = 'uma coisa';
+// $algo[] = 'outra coisa';
+
+echo $algo['id'];
+
+// echo $algo[0];
+
 // AQUI ABRE O ARQUIVO PDF
 
 // $file = 'arquivos/boleto_digital.pdf';
