@@ -56,13 +56,7 @@ echo $episodio;
                         echo $html;
                         ?>
                     </select>
-<!--                     
-                    <select id="inputEstado" class="form-control form-control-sm">
-                    <option selected></option>
-                    <option>Colaborador</option>
-                    <option>B</option>
-                    <option>C</option>
-                    </select> -->
+
                 </div>
                 <div class="col-lg-3" id="inputZero"><input type='text' name="inputZero" class="form-control form-control-sm" placeholder="Nome"></div>
                 <div class="col-lg-3" id="inputUm"><input type='month' name="inputUm" class="form-control form-control-sm"></div>

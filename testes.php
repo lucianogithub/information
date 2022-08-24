@@ -1,6 +1,104 @@
 <?php
 
-$vendorDirPath = realpath(__DIR__); echo $vendorDirPath.'/vendor';
+// $ids = '1; 2;';
+// echo rtrim($ids,';');
+
+
+// $idsUm = '11,15,16';
+// $idsDois = '11,13,14';
+
+// $idsUmE = explode(',',$idsUm);
+// $idsDoisE = explode(',',$idsDois);
+// var_dump($idsDoisE);
+// $transform = array_merge($idsUmE,$idsDoisE);
+// $transform = array_unique($transform);
+// $transform = implode(',',$transform);
+// var_dump($transform);
+
+// $arr = [
+//   [
+//     'id'=>01,
+//     'nome'=>'luciano',
+//     'vlr'=>'1.500'
+//   ],
+//   [
+//     'id'=>01,
+//     'nome'=>'luciano',
+//     'vlr'=>'2.500'
+//   ],
+//   [
+//     'id'=>02,
+//     'nome'=>'adriana',
+//     'vlr'=>'3.500'
+//   ]
+// ];
+
+
+// $a = 1;
+// $b=2;
+
+// $b += $a;
+
+// echo $b;
+
+
+// $episodio = "1;";
+// $episodio = str_replace(";",",",$episodio);
+// $episodio = rtrim($episodio,',');
+// echo $episodio;
+
+
+
+
+// $idOld=0;
+
+// foreach ($arr as $key => $value) {
+//   $idNew=$value['id'];
+//  if ($idNew != $idOld) {
+
+//   $vlrNovo =+ $value['vlr'];
+//   $dado['id']['nome'] = $value['nome']; 
+//   $dado['id']['vlrNovo'] = $vlrNovo;
+  
+//   $idOld = $idNew;
+//  }  
+// }
+
+// print_r($dado);
+
+
+// foreach ($arr as $key => $value) {
+//   $idNew=$value['id'];
+//   if ($idNew != $idOld) {
+//     $nValor =+ $value['vlr'];
+//     $nome[$value['nome']][$value['id']] = $value['nome'];    
+//     $nome[$value['vlr']] = $nValor;
+//     $idOld = $idNew;
+//   }
+//   $nValor2 =+ $value['vlr'];
+//   $nome[$value['nome']][$value['id']] = $value['nome'];    
+//   $nome[$value['vlr']] = $nValor2;
+// }
+
+
+
+// foreach ($fechamento AS $key => $value) {
+//   foreach ($value AS $v) {
+//     $teste = explode(":", $v['inicio']);								
+//     if ($teste[0] < 12) {
+//       $auxAm[$key][$v['data']]['agendamento'][] = $v['inicio']."-".$v['termino'];
+//       $auxAm[$key][$v['data']]['inicio'][] = $v['inicio'];
+//       $auxAm[$key][$v['data']]['termino'][] = $v['termino'];
+//     } else {
+//       $auxPm[$key][$v['data']]['agendamento'][] = $v['inicio']."-".$v['termino'];
+//       $auxPm[$key][$v['data']]['inicio'][] = $v['inicio'];
+//       $auxPm[$key][$v['data']]['termino'][] = $v['termino'];
+//     }
+//   }
+// }
+
+
+// $vendorDirPath = realpath(__DIR__); echo $vendorDirPath.'/vendor';
 
 // $personagem = "TESTE 1; TESTE 2";
 // $personagem = explode(';',$personagem);
@@ -64,6 +162,7 @@ $vendorDirPath = realpath(__DIR__); echo $vendorDirPath.'/vendor';
   </head>
   <body>
     <div class="container">
+      <p class="txt"></p>
         <!-- <table class="table table-bordered ">
           <thead>
             <tr>
@@ -143,20 +242,32 @@ $vendorDirPath = realpath(__DIR__); echo $vendorDirPath.'/vendor';
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <script>
-      var select   = document.getElementById("inputEstado");
-      var inputDois   = document.getElementById("inputDois");
-      inputDois.classList.add('d-none')
-      var variavel = '';
-      select.onchange = function(){
-          variavel = this.value;
-          if(variavel=='B'){  
-            inputDois.classList.remove('d-none')
-          }else{                         
-            inputDois.classList.add('d-none')  
-          }
-      }
+      // var str = '123,122';
+      // var strD = ',,';
+      // var novo = str;
 
-        $(document).ready(function(){
+
+      // function preg_match (regex, str) {
+      //   return (new RegExp(regex).test(str))
+      // }
+      // console.log(preg_match("^[0-9]",str));
+
+
+
+      // var select   = document.getElementById("inputEstado");
+      // var inputDois   = document.getElementById("inputDois");
+      // inputDois.classList.add('d-none')
+      // var variavel = '';
+      // select.onchange = function(){
+      //     variavel = this.value;
+      //     if(variavel=='B'){  
+      //       inputDois.classList.remove('d-none')
+      //     }else{                         
+      //       inputDois.classList.add('d-none')  
+      //     }
+      // }
+
+        // $(document).ready(function(){
             // $(".nome").on("input", function(){
             //     var textoDigitado = $(this).val();                
             //     var inputCusto = $(this).attr("custo");
@@ -166,25 +277,25 @@ $vendorDirPath = realpath(__DIR__); echo $vendorDirPath.'/vendor';
             
             // var info = $('#inputEstado').val();
             // console.log(info);
-        });
+        // });
         // document.addEventListener('click', function (e) {
         //   var info = $('#inputEstado').val();
         //   console.log(info);
         // });
 
-        document.addEventListener('keyup', function (e) {
-          var codigoTecla = e.which || e.keyCode || 0;
-          // console.log(codigoTecla);
-          var valida = codigoTecla == 9;
-          if(valida){
-            $(".nome").on("input", function(){
-                var textoDigitado = $(this).val();                
-                var inputCusto = $(this).attr("custo");
-                $("#"+ inputCusto).val(textoDigitado);
-                console.log(textoDigitado);
-            });
-          }
-        });
+        // document.addEventListener('keyup', function (e) {
+        //   var codigoTecla = e.which || e.keyCode || 0;
+        //   // console.log(codigoTecla);
+        //   var valida = codigoTecla == 9;
+        //   if(valida){
+        //     $(".nome").on("input", function(){
+        //         var textoDigitado = $(this).val();                
+        //         var inputCusto = $(this).attr("custo");
+        //         $("#"+ inputCusto).val(textoDigitado);
+        //         console.log(textoDigitado);
+        //     });
+        //   }
+        // });
       </script>
 
   </body>
